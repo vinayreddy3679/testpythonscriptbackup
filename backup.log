@@ -180,3 +180,6 @@ remote:
 To github.com:vinayreddy3679/testpythonscriptbackup.git
  ! [remote rejected] auto-backup -> auto-backup (push declined due to repository rule violations)
 error: failed to push some refs to 'github.com:vinayreddy3679/testpythonscriptbackup.git'
+To github.com:vinayreddy3679/testpythonscriptbackup.git
+ * [new branch]      auto-backup -> auto-backup
+branch 'auto-backup' set up to track 'origin/auto-backup'.
