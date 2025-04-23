@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1745389398,,"wq!"
 :q!
 |2,0,1745389300,,"q!"
-:wq!
-|2,0,1745389022,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -27,12 +27,22 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/backup
-|4,48,1,0,1745389300,"~/backup"
-'1  17  14  ~/backup.sh
-|4,49,17,14,1745389022,"~/backup.sh"
+'0  20  29  ~/backup.sh
+|4,48,20,29,1745389398,"~/backup.sh"
+'1  1  0  ~/backup
+|4,49,1,0,1745389300,"~/backup"
+'2  17  14  ~/backup.sh
+|4,50,17,14,1745389022,"~/backup.sh"
+'3  17  14  ~/backup.sh
+|4,51,17,14,1745389022,"~/backup.sh"
 
 # Jumplist (newest first):
+-'  20  29  ~/backup.sh
+|4,39,20,29,1745389398,"~/backup.sh"
+-'  17  14  ~/backup.sh
+|4,39,17,14,1745389315,"~/backup.sh"
+-'  1  0  ~/backup
+|4,39,1,0,1745389300,"~/backup"
 -'  1  0  ~/backup
 |4,39,1,0,1745389300,"~/backup"
 -'  17  14  ~/backup.sh
@@ -43,18 +53,21 @@
 |4,39,1,0,1745388979,"~/backup.sh"
 -'  1  0  ~/backup.sh
 |4,39,1,0,1745388979,"~/backup.sh"
+-'  1  0  ~/backup.sh
+|4,39,1,0,1745388979,"~/backup.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/backup.sh
+	*	1745389396	0
+	"	20	29
+	^	20	30
+	.	21	0
+	+	18	40
+	+	10	45
+	+	17	15
+	+	21	0
 
 > ~/backup
 	*	1745389299	0
 	"	1	0
-
-> ~/backup.sh
-	*	1745389021	0
-	"	17	14
-	^	17	15
-	.	17	15
-	+	18	40
-	+	10	45
-	+	17	15
