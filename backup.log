@@ -102,3 +102,29 @@ remote:
 To github.com:vinayreddy3679/testpythonscriptbackup.git
  ! [remote rejected] auto-backup -> auto-backup (push declined due to repository rule violations)
 error: failed to push some refs to 'github.com:vinayreddy3679/testpythonscriptbackup.git'
+remote: error: GH013: Repository rule violations found for refs/heads/auto-backup.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GitHub SSH Private Key ————————————————————————————        
+remote:        locations:        
+remote:          - commit: 21034c2bab29fd9fcc4a716a5553aba2c216ba63        
+remote:            path: .ssh/id_ed25519:1        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/vinayreddy3679/testpythonscriptbackup/security/secret-scanning/unblock-secret/2w7OZwq0ZgZ8JEYBzibop2XCh3I        
+remote:             
+remote: 
+remote: 
+To github.com:vinayreddy3679/testpythonscriptbackup.git
+ ! [remote rejected] auto-backup -> auto-backup (push declined due to repository rule violations)
+error: failed to push some refs to 'github.com:vinayreddy3679/testpythonscriptbackup.git'
