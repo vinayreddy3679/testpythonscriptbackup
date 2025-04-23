@@ -183,3 +183,14 @@ error: failed to push some refs to 'github.com:vinayreddy3679/testpythonscriptba
 To github.com:vinayreddy3679/testpythonscriptbackup.git
  * [new branch]      auto-backup -> auto-backup
 branch 'auto-backup' set up to track 'origin/auto-backup'.
+ERROR: We're doing an SSH key audit.
+Reason: unverified automatically (private key found in a public repository)
+Please visit https://github.com/settings/keys/121075801 to approve this key so we know it's safe.
+
+Fingerprint:
+SHA256:hIoIWcp8CPHrmxCkX8W7T+XsCltU+s+SsXj+gB5fqDo
+
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
